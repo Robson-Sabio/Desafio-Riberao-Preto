@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questões Interativas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="question">
+            <h2>1) Sequência de Fibonacci</h2>
+            <p>Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores, escreva um programa que calcule a sequência de Fibonacci e verifique se um número pertence à sequência.</p>
+            <p><strong>Solução:</strong></p>
+            <div class="card">
+                <p>Informe um número:</p>
+                <input type="number" id="fibonacciInput" placeholder="Digite um número">
+                <button id="fibonacciButton" >Verificar</button>
+                <p id="fibonacciResult"></p>
+            </div>
+            <button class="info-button" id="showFibonacciScriptButton">Mostrar Script</button>
+        </div>
+        <div class="question">
+            <h2>2) Verificar a Existência da Letra 'a'</h2>
+            <p>Escreva um programa que verifique, em uma string, a existência da letra ‘a’, além de informar a quantidade de vezes em que ela ocorre.</p>
+            <p><strong>Solução:</strong></p>
+            <div class="card">
+                <p>Informe uma string:</p>
+                <input type="text" id="stringInput" placeholder="Digite uma string">
+                <button id="stringButton" >Verificar</button>
+                <p id="stringResult"></p>
+            </div>
+            <button class="info-button" id="showStringScriptButton">Mostrar Script</button>
+        </div>
+    </div>
+    <button class="nav-button left">&#10094;</button>
+    <button class="nav-button right">&#10095;</button>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
