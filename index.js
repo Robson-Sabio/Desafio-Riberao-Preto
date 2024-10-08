@@ -10,13 +10,13 @@ document.getElementById("fibonacciButton").addEventListener("click", checkFibona
 
 // Outros ouvintes de eventos
 document.getElementById("showFibonacciScriptButton").addEventListener("click", function() {
-  window.open("https://github.com/SEU_USUARIO/SEU_REPOSITORIO/blob/main/pasta/do/seu/script.js", "_blank");
+  window.open("https://github.com/Robson-Sabio/Desafio-Riber-o-Preto/blob/main/modules/fibonacci.js", "_blank");
 });
 
 document.getElementById("stringButton").addEventListener("click", checkString);
 
 document.getElementById("showStringScriptButton").addEventListener("click", function() {
-  window.open("https://github.com/SEU_USUARIO/SEU_REPOSITORIO/blob/main/pasta/do/seu/script.js", "_blank");
+  window.open("https://github.com/Robson-Sabio/Desafio-Riber-o-Preto/blob/main/modules/stringCheck.js", "_blank");
 });
 
 document.querySelector(".nav-button.left").addEventListener("click", function() {
